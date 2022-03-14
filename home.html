@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Pasteleria </title>
+</head>
+<body>
+
+
+<section id="header">
+    <header>
+        <div class="logo letras">
+            <h1> Hola Mundo   </h1>
+        </div>
+    </header>
+</section>
+<hr/>
+
+
+<section id="menu">
+    <div class="boxmenu">
+        <div>
+            <ul>
+                <di>
+                    <li>
+                        <a href="cliente.html"> Cliente </a>
+                    </li>
+                </di>
+                <di>
+                    <li>
+                        <a href="home.html"> Home </a>
+                    </li>
+                </di>
+            </ul>
+        </div>
+    </div>
+</section>
+<hr/>
+<section>
+    <div>
+        <h2>
+            Sabores y precios
+        </h2>
+    </div>
+    <div>
+        <ul>
+            <di>
+                <li>
+                    <a> Vainilla .....$10</a>
+                </li>
+            </di>
+            <di>
+                <li>
+                    <a> Chocolate .....$10 </a>
+                </li>
+            </di>
+            <di>
+                <li>
+                    <a> Fresa .....$10 </a>
+                </li>
+            </di>
+            <di>
+                <li>
+                    <a> Durazno .....$10 </a>
+                </li>
+            </di>
+            <di>
+                <li>
+                    <a> Limon .....$10 </a>
+                </li>
+            </di>
+        </ul>
+    </div>
+</section>
+<hr/>
+
+
+<section>
+    <div>
+        <h2>
+            Adornos y precios
+        </h2>
+    </div>
+    <div>
+        <ul>
+            <di>
+                <li>
+                    <a> Modelo 1 .....$10</a>
+                </li>
+            </di>
+            <di>
+                <li>
+                    <a> Modelo 2  .....$10 </a>
+                </li>
+            </di>
+            <di>
+                <li>
+                    <a> Modelo 3 .....$10 </a>
+                </li>
+            </di>
+            <di>
+                <li>
+                    <a> Modelo 4  .....$10 </a>
+                </li>
+            </di>
+            <di>
+                <li>
+                    <a> Modelo 5.....$10 </a>
+                </li>
+            </di>
+        </ul>
+    </div>
+</section>
+<hr/>
+
+<section>
+    <div>
+        <h2>
+            Selecciona Modelo
+        </h2>
+    </div>
+    <div>
+        <div>
+            <div>
+                <label name="chocolate"> Modelo1 </label>
+                <input  type="checkbox"  name="vehicle1" ><br>
+            </div>
+            <div>
+                <label name="vainilla"> Modelo2 </label>
+                <input  type="checkbox"  name="vainilla" ><br>
+            </div>
+            <div>
+                <label name="vainilla"> Modelo3 </label>
+                <input type="checkbox" name="vainilla"><br>
+            </div>
+            <div>
+                <label name="durazno"> Modelo4 </label>
+                <input type="checkbox" name="durazno"><br>
+            </div>
+            <div>
+                <label name="limon"> Modelo5 </label>
+                <input type="checkbox" name="limon"><br>
+            </div>
+        </div>
+    </div>
+</section>
+<hr/>
+
+<section>
+    <div>
+        <h2>
+            Selecciona Sabor
+        </h2>
+    </div>
+    <div>
+        <div>
+            <div>
+                <label name="chocolate"> Chocolate </label>
+                <input  type="checkbox"  name="vehicle1" ><br>
+            </div>
+            <div>
+                <label name="vainilla"> Vainilla </label>
+                <input  type="checkbox"  name="vainilla" ><br>
+            </div>
+            <div>
+                <label name="vainilla"> Fresa </label>
+                <input type="checkbox" name="vainilla"><br>
+            </div>
+            <div>
+                <label name="durazno"> Durazno </label>
+                <input type="checkbox" name="durazno"><br>
+            </div>
+            <div>
+                <label name="limon"> Limon </label>
+                <input type="checkbox" name="limon"><br>
+            </div>
+        </div>
+    </div>
+</section>
+<hr/>
+<section>
+    <div>
+
+        <form action="server.html" method="GET">
+            <div>
+                <label for="name"> Nommbre/s: </label>
+                <input type="text" name="name">
+
+            </div>
+            <div>
+                <label for="lastName"> Apellidos: </label>
+                <input type="text" name="lastName">
+            </div>
+            <div>
+                <label for="phone"> Telefono: </label>
+                <input type="tel" name="phone" maxlength="11" pattern="[0-9]{3}-[0-9]{7}" placeholder="(lada)### ####" required>
+            </div>
+            <div>
+                <label for="email"> Email: </label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <div>
+                    Sabores
+                </div>
+                <div>
+                    <label name="chocolate"> Chocolate </label>
+                    <input  type="checkbox"  name="vehicle1" ><br>
+                </div>
+                <div>
+                    <label name="vainilla"> Vainilla </label>
+                    <input  type="checkbox"  name="vainilla" ><br>
+                </div>
+                <div>
+                    <label name="vainilla"> Fresa </label>
+                    <input type="checkbox" name="vainilla"><br>
+                </div>
+                <div>
+                    <label name="durazno"> Durazno </label>
+                    <input type="checkbox" name="durazno"><br>
+                </div>
+                <div>
+                    <label name="limon"> Limon </label>
+                    <input type="checkbox" name="limon"><br>
+                </div>
+            </div>
+            <div>
+                <label name="description"> Descripcion: </label>
+                <textarea name="description"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+
+
+    </div>
+</section>
+
+<footer>
+    <div>
+        <p>
+            Aramis Ramirez 💩
+        </p>
+    </div>
+
+</footer>
+
+
+
+
+</body>
+</html>
